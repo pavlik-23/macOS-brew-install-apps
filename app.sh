@@ -42,6 +42,4 @@ sudo dscl . -create /Users/user PrimaryGroupID 503
 sudo dscl . -create /Users/user NFSHomeDirectory /Local/Users/user
 sudo dscl . -passwd /Users/user 1111
 
-
-echo '91.220.207.101 git.simpals.com' | sudo tee -a /etc/hosts
  
